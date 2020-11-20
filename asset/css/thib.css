@@ -7,6 +7,73 @@ body {
   margin: 0;
 }
 
+.dropdownmenu {
+  background-color: #666;
+}
+ 
+.dropdownmenu,
+.dropdownmenu ul {
+  list-style-type: none; 
+  margin: 0px; 
+  padding: 0px;
+} 
+.dropdownmenu ul { 
+  display: none;
+}
+.dropdownmenu li {
+
+  display: inline-block;
+ 
+  position: relative;
+}
+.dropdownmenu a {
+
+  display: block;
+  
+  width: 50px; 
+  height: 20px; 
+  line-height: 20px; 
+
+  padding: 3px 10px;
+  text-align: center;
+}
+.dropdownmenu li:hover ul {
+  display: block;
+  
+  position: absolute; 
+  top: 36px; 
+  left: 0px; 
+  z-index: 100; 
+}
+.dropdownmenu ul a { 
+  
+  display: block;
+}
+
+.dropdownmenu li { 
+  background-color: #666; 
+}
+.dropdownmenu li a { 
+  color: #ccc;
+}
+.dropdownmenu li:hover {
+  background-color: #000; 
+}
+.dropdownmenu li:hover a {
+  color: #fff;
+}
+.dropdownmenu ul li { 
+  background-color: #ccc; 
+}
+.dropdownmenu ul li:hover {
+  background-color: #000; 
+}
+.dropdownmenu ul li a {
+  color: #666;  
+}
+.dropdownmenu ul li:hover a {
+  color: #f00; 
+}
 .navbar {
   overflow: hidden;
   background-color: #333333;
